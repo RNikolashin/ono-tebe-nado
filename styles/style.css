@@ -1,1 +1,61 @@
-/* место для вашего кода */
+
+
+.header{
+    max-width: 1340px; 
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 148px 1fr;
+    margin: 94px 49px 92px 283px;
+}
+ 
+.header__logo {
+max-width: 148px;
+max-height: 105px;
+}
+
+.header__address{
+    justify-self: end;
+    max-width: 240px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+} 
+
+.header__address__link{
+    text-underline-offset: 4px;
+}
+
+.header__menu{
+    display: flex;
+    list-style: circle;
+    gap: 32px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.header__menu__nonmarker{
+    list-style: none;
+}
+
+.header__menu__link{
+    text-underline-offset: 4px;
+}
+
+.cover{
+   background-image: url(../images/cover.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 1440px;
+   margin: 0 auto;
+
+}
+
+.cover__background{
+    width: 1440px;
+    height: 757px;
+}
+
+/* Настроил картинку для фона. Дальше нужно сделать буквы и все остальное. Сперва сделать оверлей полупрозрачный */
